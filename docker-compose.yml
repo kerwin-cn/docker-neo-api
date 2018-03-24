@@ -3,6 +3,7 @@ version: '2'
 services:
   neo-api-server:
     build: ./neo
+    restart: always
     ports:
       - '10332:10332'
       - '10333:10333'
